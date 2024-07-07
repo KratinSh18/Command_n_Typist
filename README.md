@@ -1,7 +1,5 @@
 # CMDTYPIST -- _Where Programmers Type_
 
-#### By Kratin
-
 ### About
 
 _Cmdtypist_ is a programmer oriented typing tutor written in _C_, 
