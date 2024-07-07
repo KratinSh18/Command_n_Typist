@@ -1,12 +1,3 @@
-//cmdtypist: the main of cmdtypist
-
-/*
-Program title: CMDTYPIST
-Author: Chiatiah Calson
-License: GPL 3 or later versions
-Date and Time: 5 July 2017 @ 10:40PM
-Program Size: 2.8MB
-*/
 
 #include<math.h>
 #include<stdio.h>	
