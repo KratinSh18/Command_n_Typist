@@ -1,10 +1,4 @@
-Download
---------
 
-You can get cmdtypist by cloning the repo from github, create an empty directory
-called cmdtypist and cd into it. Download cmdtypist into it by running
-		
-		git clone https://github.com/Noslac/cmd_typist
 
 Installation
 ------------
