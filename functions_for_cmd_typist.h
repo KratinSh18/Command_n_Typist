@@ -1,12 +1,3 @@
-//functions_for_cmd_typist.h: Contains all function prototypes, constants and global variables.
-
-/*
-Program title: CMDTYPIST
-Author: Chiatiah Calson
-License: GPL 3 or later versions
-Date and Time: 5 July 2017 @ 10:40PM
-Program Size: 2.8
-*/
 
 char get_only_char();
 char time_set=0;
