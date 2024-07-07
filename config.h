@@ -1,12 +1,3 @@
-//config.h: Configuration settings
-
-/*
-Program title: CMDTYPIST
-Author: Chiatiah Calson
-License: GPL 3 or later versions
-Date and Time: 5 July 2017 @ 10:40PM
-Program Size: 2.8 
-*/
 
 //0=message config, 1=mode config, 2=block confi , 3=sound config, 4: user text config
 extern char read_myown_config(void)//num_value is used to record settings for random and standard play
@@ -211,34 +202,12 @@ extern void read_message_conf(void)//Function for first time message display
     	FILE *fconf;
     	printf("%s\n", "      ============================WELCOME!!!============================      \n");
         printf("\n\t\t\t\tCMDTYPIST\n\n It is an extremely fast typing tutor designed to work on ubuntu and other linux distros "
-		"\ncmd_typist v 1.0  by Chiatiah Calson Noah on the 5th July 2017 @ 10:40PM "
+		
 
-	    "\n\nThis program is free software: you can redistribute it and/or modify "
-	    "it under the terms of the GNU General Public License as published by "
-	    "the Free Software Foundation, either version 3 of the License, or "
-	    "(at your option) any later version."
+	  
 
-	    "\n\nThis program is distributed in the hope that it will be useful, "
-	    "but WITHOUT ANY WARRANTY; without even the implied warranty of "
-	    "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the "
-	    "GNU General Public License for more details.\n");
-	    printf("\n%s\n","Do you want to view full license[y/n]:" );
-	    if(get_only_char()=='y')
-	    {
-	    	if((fconf=fopen("LICENSE.md","r"))==NULL)
-	    		fprintf(stderr, "%s\n", "GNU GPL license not found in program directory, visit <http://www.gnu.org/licenses/>");
-	    	else
-	    	{
-	    		char ch;
-	    		while((ch=getc(fconf))!=EOF)
-	    			putchar(ch);
-	    	}
-	   		if(fclose(fconf)!=0)
-		    {
-		    	fprintf(stderr, "%s\n", "Fatal Error, license file is corrupted\n");
-		    	exit(2);
-		    }
-	    }
+	    
+	 
 	    printf("%s\n", "ENTER to continue");
 	    while(ch=getchar()!='\n');//remains here until enter key.
 	    printf("\n%s", "First time tip:\n Enter \"select \"lesson-number\"\" when prompted for a command; lesson-number=valid lesson number"
@@ -256,7 +225,7 @@ extern void read_message_conf(void)//Function for first time message display
 	    	}
 	   		if(fclose(fconf)!=0)
 		    {
-		    	fprintf(stderr, "%s\n", "Fatal Error, license file is corrupted\n");
+		    	fprintf(stderr, "%s\n", "Fatal Error\n");
 		    	exit(2);
 		    }
 	    }
