@@ -1,6 +1,6 @@
 # CMDTYPIST -- _Where Programmers Type_
 
-#### By _Chiatiah Calson_
+#### By Kratin
 
 ### About
 
@@ -8,23 +8,15 @@ _Cmdtypist_ is a programmer oriented typing tutor written in _C_,
 designed to work on the gnome-terminal, xterm and uxterm and other consoles.  It 
 consists true programming lessons, so the user can type and learn at the same time.
 
-![about cmdtypist](https://raw.githubusercontent.com/Noslac/cmd_typist/master/about.gif)
-
 ### Requirements
 
 	gcc compiler
 
 A gcc compiler is required to compile cmdtypist	
 
-### DOWNLOAD
-
-You can get cmdtypist by cloning the repo from github
-		
-		git clone https://github.com/Noslac/cmd_typist
-
 ### INSTALLATION
 
-Open a terminal and navigate into your clone copy of cmd_typist directory. cd further into installation directory. Run
+Open a terminal and navigate into your cmd_typist directory. cd further into installation directory. Run
 
 					./install.sh 
 
@@ -166,18 +158,5 @@ and starts only as described above.
 >The last line of each lesson session is marked blue, so user is aware and 
 can take time to review speed details before starting the following lesson.
 
-### License
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
